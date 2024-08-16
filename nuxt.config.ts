@@ -22,6 +22,8 @@ export default defineNuxtConfig({
       localeDetector: './localeDetector.ts'
     }
   },
+  plugins: [
+  ],
   build: {
     transpile: [
       'trpc-nuxt'
